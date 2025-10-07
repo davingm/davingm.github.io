@@ -105,4 +105,13 @@ React      12 commits   ████░░░░░░░░░░░░░░�
 Laravel    45 commits   ██████████████████████░░░   45%
 ```
 
+# Pahami Saya Lebih Jauh
 
+
+
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasinnorozzadeh&layout=compact&text_color=000&icon_color=000&bg_color=FFFFFF" />
+<img src="https://github-readme-stats.vercel.app/api?username=yasinnorozzadeh&show_icons=true&text_color=000&icon_color=000&bg_color=FFFFFF" />
+
+
+![Snake animation](https://github.com/DavinGM/DavinGM/blob/main/img/github-contribution-grid-snake.svg)
