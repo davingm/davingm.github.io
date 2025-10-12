@@ -113,7 +113,7 @@ Laravel    45 commits   ██████████████████�
 
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavinGM&layout=compact&text_color=000&icon_color=000&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api?username=DavinGMh&show_icons=true&text_color=000&icon_color=000&bg_color=FFFFFF" />
+<img src="https://github-readme-stats.vercel.app/api?username=DavinGM&show_icons=true&text_color=000&icon_color=000&bg_color=FFFFFF" />
 
 
 ![Snake animation](https://github.com/DavinGM/DavinGM/blob/main/img/github-contribution-grid-snake.svg)
