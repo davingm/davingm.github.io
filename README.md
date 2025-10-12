@@ -1,6 +1,6 @@
 <img src="img/benner.png" alt="Banner" style="display:block; width:100vw; max-width:100%; margin:0; padding:0; object-fit:cover;"/>
 
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Senang Berjenalan Denganmu.</h1>
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Senang Berkenalan Denganmu.</h1>
 
 <img align="right" height="250" width="400" alt="GIF" src="img/giphy.gif"/>
 
@@ -112,8 +112,8 @@ Laravel    45 commits   ██████████████████�
 
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasinnorozzadeh&layout=compact&text_color=000&icon_color=000&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api?username=yasinnorozzadeh&show_icons=true&text_color=000&icon_color=000&bg_color=FFFFFF" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavinGM&layout=compact&text_color=000&icon_color=000&bg_color=FFFFFF" />
+<img src="https://github-readme-stats.vercel.app/api?username=DavinGMh&show_icons=true&text_color=000&icon_color=000&bg_color=FFFFFF" />
 
 
 ![Snake animation](https://github.com/DavinGM/DavinGM/blob/main/img/github-contribution-grid-snake.svg)
