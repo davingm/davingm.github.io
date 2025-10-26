@@ -1,4 +1,4 @@
-<img src="img/benner.png" alt="Banner" style="display:block; width:100vw; max-width:100%; margin:0; padding:0; object-fit:cover;"/>
+<img src="img/benner.1.png" alt="Banner" style="display:block; width:100vw; max-width:100%; margin:0; padding:0; object-fit:cover;"/>
 
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Senang Berkenalan Denganmu.</h1>
 
