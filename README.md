@@ -4,21 +4,21 @@
 
 <img align="right" height="250" width="400" alt="GIF" src="img/giphy.gif"/>
 
-- 🔭 𝚂𝚊𝚊𝚝 𝚒𝚗𝚒 𝚜𝚎𝚍𝚊𝚗𝚐 𝚖𝚎𝚗𝚐𝚎𝚛𝚓𝚊𝚔𝚊𝚗 **Project Laravel 12.**
-- 🌱 𝚂𝚎𝚍𝚊𝚗𝚐 𝚖𝚎𝚗𝚍𝚊𝚕𝚊𝚖𝚒 **DevOps dan Pemrograman Java yang kompetitif.**
-- 👯 𝙼𝚎𝚗𝚌𝚊𝚛𝚒 𝚔𝚘𝚕𝚊𝚋𝚘𝚛𝚊𝚜𝚒 𝚍𝚒 **Deckop app, Ai Enginer, atau Pengembangan Web.**
+- 🔭 𝚂𝚊𝚊𝚝 𝚒𝚗𝚒 𝚜𝚎𝚍𝚊𝚗𝚐 𝚖𝚎𝚗𝚐𝚎𝚛𝚓𝚊𝚔𝚊𝚗 **Project React Pixle.**
+- 🌱 𝚂𝚎𝚍𝚊𝚗𝚐 𝚖𝚎𝚗𝚍𝚊𝚕𝚊𝚖𝚒 **Frontend dan Framwork High-end Lanjutan.**
+- 👯 𝙼𝚎𝚗𝚌𝚊𝚛𝚒 𝚔𝚘𝚕𝚊𝚋𝚘𝚛𝚊𝚜𝚒 𝚍𝚒 **Deckop app, Ai Enginer, atau game Developer.**
 - 💬 𝚃𝚊𝚗𝚢𝚊𝚔𝚊𝚗 𝚊𝚙𝚊 𝚜𝚊𝚓𝚊 𝚔𝚎𝚙𝚊𝚍𝚊 𝚜𝚊𝚢𝚊 [di sini](https://github.com/DavinGM) ! 𝚂𝚊𝚢𝚊 𝚜𝚎𝚗𝚊𝚗𝚐 𝚖𝚎𝚗𝚋𝚊𝚗𝚝𝚞 anda.
 - 😄 𝙿𝚛𝚘𝚗𝚘𝚞𝚗𝚜 : **Dia/Laki-laki.**
-- ⚡ 𝙵𝚊𝚔𝚝𝚊 𝚄𝚗𝚒𝚔 : **Bagian terbaik nya atur atur aja dulu*.**
+- ⚡ 𝙵𝚊𝚔𝚝𝚊 𝚄𝚗𝚒𝚔 : **Ketaatan sejati tidak butuh negosiasi*.**
 
 <br/>
 <br/>
 
-<p>Selamat Datang, Pengembara 👋.</p>
+<p>Selamat Datang,👋.</p>
 
-<p>Saya Davin Gahisan Mustafid (Davin GM), seorang pengembang independen (independent developer) yang berasal dari Bandung, Indonesia. Perjalanan saya di dunia pengembangan perangkat lunak (software development) dimulai dari ketertarikan pada koding di tahun 2023. Awalnya, saya mendalami peran sebagai Backend Developer saat memasuki jenjang Sekolah Menengah Kejuruan (SMK), dengan bahasa pemrograman pertama saya adalah PHP.</p>
+<p>Saya Davin Gahisan Mustafid (Davin GM), seorang pengembang independen (independent developer) yang berasal dari Bandung, Indonesia. Perjalanan saya di dunia pengembangan perangkat lunak (software development) dimulai dari ketertarikan pada koding di tahun 2023. Awalnya, saya mendalami peran sebagai Backend Developer saat memasuki jenjang Sekolah Menengah Kejuruan (SMK), dengan bahasa pemrograman Utama saya adalah JavaScript & typeScript.</p>
 
-<p>Namun, minat saya bergeser. Saat ini, saya lebih fokus dan memiliki ketertarikan kuat pada bidang Frontend Developer. Pada tahun 2024, saya mulai mempelajari dasar-dasar JavaScript dan CSS sebagai langkah awal saya dalam pengembangan frontend hingga saat ini. dan jika kamu tertarik untuk Membantu saya dan berkontirbusi saya akan sanggat sanggat berterimakasih</p>
+<p>Saat ini, saya lebih fokus dan memiliki ketertarikan kuat pada bidang Frontend Developer. Pada tahun 2024, saya mulai mempelajari dasar-dasar JavaScript dan CSS sebagai langkah awal saya dalam pengembangan frontend hingga saat ini. dan jika kamu tertarik untuk berkoraborasi saya akan sanggat senang </p>
 
 <h3>Teknologi dan Alat yang Saya Gunakan</h3>
 <p>
@@ -50,26 +50,13 @@
 <img alt="Laragon" src="https://img.shields.io/badge/-TablePlus-F68712?style=flat-square&logo=laragon&logoColor=white" />
 <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" /><h3>Open source projects</h3>
 
-<h3>My latest posts</h3>
-<ul>
-    <li><a href="https://santrikoding.com/"><b><img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" width="20" alt="baru" /> Tempat Belajar Coding andalan Santri</b></a><br/><i>Cara efektif memahami dasar Membangun aplikasi dari 0.</i></li>
-    <li><a href="https://youtu.be/kcnwI_5nKyA?si=f6LejStZBRxl74fH"><b><img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" width="20" alt="baru" /> React Dasar Paling Masuk Akal</b></a><br/><i>Panduan singkat dan logis untuk mulai belajar React dari nol.</i></li>
-    <li><a href="https://youtu.be/4B9XYXCBYkA?si=V0-UbRKjqQKd7GmG"><b><img src="https://cdn-icons-png.flaticon.com/512/616/616490.png" width="20" alt="baru" /> Belajar Cofigurasi Tailwinds terbaru </b></a><br/><i>Simak tips mengatasi konfigurasi Tailwind yang rumit agar tetap produktif.</i></li>
 
 ## Sratistik saya Di github
-
-
 <!--START_SECTION:waka-->
 ![waktu Coding](http://img.shields.io/badge/Code%20Time-3%2C434%20hrs%2020%20mins-blue)
 
 
-**🐱 My GitHub Data** 
-
-// EMPTY
-
-
 # Pahami Saya Lebih Jauh
-
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavinGM&layout=compact&text_color=000&icon_color=000&bg_color=FFFFFF" />
 <img src="https://github-readme-stats.vercel.app/api?username=DavinGM&show_icons=true&text_color=000&icon_color=000&bg_color=FFFFFF" />
