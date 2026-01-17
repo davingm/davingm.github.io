@@ -6,7 +6,7 @@
 
 <p>Welcome,👋.</p>
 
-<p>I'm Davin Gahisan Mustafid (Davin GM), an independent developer from Bandung, Indonesia. My journey in software development began with an interest in coding in 2023. Initially, I pursued a role as a Backend Developer while attending Vocational High School (SMK), with JavaScript and TypeScript as my primary programming languages.
+<p>I'm Davin Gahisan Mustafid (Davin GM), an independent developer from Bandung, Indonesia. I specialize in front-end engineering and stay up-to-date on modern technologies in the Vue.js ecosystem. Let's collaborate on crazy ideas with me here.
 
   <h3>Technology and Tools I Use</h3>
 <p>
