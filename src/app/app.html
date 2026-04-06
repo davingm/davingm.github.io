@@ -1,0 +1,151 @@
+<div class="min-h-screen bg-white flex flex-col md:flex-row">
+
+  <!-- LEFT : foto -->
+  <div class="w-full md:w-2/5 lg:w-1/3 flex-shrink-0">
+    <img
+      src="cerybswebp.webp"
+      alt="Foto Profil {{ name }}"
+      class="w-full h-64 md:h-full object-cover object-center"
+    />
+  </div>
+
+  <!-- RIGHT : konten -->
+  <div class="flex-1 px-8 py-10 md:pt-12 overflow-y-auto border-l border-gray-200">
+
+    <!-- Header -->
+    <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-1">
+      <h1 class="text-3xl font-semibold text-gray-900 tracking-tight">{{ name }}</h1>
+      <span class="text-gray-500 text-sm sm:text-base sm:mt-2">{{ age }}, {{ pronouns }}</span>
+    </div>
+
+    <!-- Tagline -->
+    <div class="mb-1">
+      <p class="text-blue-600 text-sm">
+        @for (role of roles; track role.label; let last = $last) {
+          <a [href]="role.url" target="_blank" class="hover:underline">{{ role.label }}</a>
+          @if (!last) { <span class="text-gray-400"> · </span> }
+        }
+      </p>
+      <p class="text-gray-500 text-sm mt-0.5">{{ location }}</p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="flex flex-wrap gap-2 mt-3 mb-5">
+      @for (link of socialLinks; track link.label) {
+        <a
+          [href]="link.url"
+          target="_blank"
+          class="border border-gray-300 text-gray-700 text-xs px-3 py-1 rounded hover:bg-gray-100 transition-colors"
+        >
+          {{ link.label }}
+        </a>
+      }
+    </div>
+
+    <!-- Bio -->
+    <div class="mb-6 text-sm text-gray-700 leading-relaxed">
+      <p>
+        <span class="bg-yellow-200">{{ bio.highlight1 }}</span>
+        {{ bio.text1 }}
+      </p>
+      @if (bio.highlight2) {
+        <p class="mt-1">
+          <span class="bg-yellow-200">{{ bio.highlight2 }}</span>
+          {{ bio.text2 }}
+        </p>
+      }
+      @if (bio.text3) {
+        <p class="mt-1">{{ bio.text3 }}</p>
+      }
+    </div>
+
+    <!-- Grid: Pengalaman + Pendidikan -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+
+      <!-- Pengalaman Professional -->
+      <div>
+        <h2 class="text-base font-semibold text-gray-900 mb-2">Pengalaman Professional</h2>
+        <ul class="space-y-2">
+          @for (exp of experiences; track exp.title) {
+            <li class="text-sm">
+              <span class="text-blue-600 font-medium">{{ exp.title }}</span>
+              <span class="text-gray-500"> · {{ exp.company }}, {{ exp.period }}</span>
+            </li>
+          }
+        </ul>
+      </div>
+
+      <!-- Pendidikan -->
+      <div>
+        <h2 class="text-base font-semibold text-gray-900 mb-2">Pendidikan</h2>
+        <ul class="space-y-2">
+          @for (edu of educations; track edu.degree) {
+            <li class="text-sm">
+              <p class="text-gray-800">{{ edu.degree }}</p>
+              <p class="text-gray-500">{{ edu.institution }} · {{ edu.period }}</p>
+            </li>
+          }
+        </ul>
+      </div>
+
+      <!-- Kegiatan / Civic -->
+      <div>
+        <h2 class="text-base font-semibold text-gray-900 mb-2">Kegiatan</h2>
+        <ul class="space-y-2">
+          @for (act of activities; track act.title) {
+            <li class="text-sm">
+              <span class="text-blue-600 font-medium">{{ act.title }}</span>
+              <span class="text-gray-500"> · {{ act.org }}, {{ act.period }}</span>
+            </li>
+          }
+        </ul>
+      </div>
+
+      <!-- Bahasa -->
+      <div>
+        <h2 class="text-base font-semibold text-gray-900 mb-2">Bahasa</h2>
+        <ul class="space-y-2">
+          @for (lang of languages; track lang.name) {
+            <li class="text-sm">
+              <span class="text-gray-800 font-medium">{{ lang.name }}</span>
+              <span class="text-gray-400"> · </span>
+              <span class="text-gray-500">{{ lang.level }}</span>
+            </li>
+          }
+        </ul>
+      </div>
+
+      <!-- Skills / Teknologi -->
+      <div>
+        <h2 class="text-base font-semibold text-gray-900 mb-2">Teknologi</h2>
+        <div class="flex flex-wrap gap-1.5">
+          @for (skill of skills; track skill) {
+            <span class="border border-gray-300 text-gray-600 text-xs px-2 py-0.5 rounded-full">
+              {{ skill }}
+            </span>
+          }
+        </div>
+      </div>
+
+      <!-- Keanggotaan -->
+      <div>
+        <h2 class="text-base font-semibold text-gray-900 mb-2">Keanggotaan</h2>
+        <ul class="space-y-2">
+          @for (mem of memberships; track mem.name) {
+            <li class="text-sm">
+              <span class="text-blue-600 font-medium">{{ mem.name }}</span>
+              <span class="text-gray-500"> · {{ mem.period }}</span>
+            </li>
+          }
+        </ul>
+      </div>
+
+    </div>
+    <!-- end grid -->
+
+  </div>
+  <!-- end right -->
+
+</div>
+
+<router-outlet />
