@@ -1,85 +1,25 @@
-# Angular Portfolio Template
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 你好！很高兴认识你</h1>
 
-Template portofolio modern, responsif, dan berperforma tinggi yang dibangun dengan **Angular**. Siap digunakan untuk memamerkan proyek, keahlian, dan pengalaman profesional Anda.
+<img align="right" height="250" width="400" alt="GIF" src="img/giphy.gif"/>
 
-- Demo : https://nairha.nlfts.dev/
-- Donate : https://saweria.co/nlfts
+<p>我是 Davin Gahisan Mustafid (Davin GM)，一名来自印度尼西亚万隆的独立开发者。我专注于前端工程，并始终紧跟 Vue.js 生态系统的现代技术前沿。期待与你一起将那些疯狂的想法变为现实。</p>
+<h3>联系我进行合作</h3>
+<br>
 
-## 🚀 Quick Deploy
+[![Mail Badge](https://img.shields.io/badge/-davin@nlfts.dev-dc2626?style=flat&labelColor=dc2626&logo=gmail&logoColor=white)](mailto:davin@nlfts.dev)
+[![Instagram Badge](https://img.shields.io/badge/-@davingm__-c026d3?style=flat&labelColor=c026d3&logo=instagram&logoColor=white)](https://instagram.com/davingm_)
+[![LinkedIn Badge](https://img.shields.io/badge/-Davin%20Gahisan-0284c7?style=flat&labelColor=0284c7&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davin-gahisan-016b77390/)
+[![Profile Views](https://komarev.com/ghpvc/?username=davingm&color=blue&label=Profile%20Views)](https://github.com/davingm/DavinGM)
+[![GitHub Followers](https://img.shields.io/github/followers/davingm?label=GitHub%20Followers)](https://github.com/davingm)
 
-Gunakan tombol di bawah ini untuk menduplikasi repositori ini dan menayangkannya secara instan ke platform hosting favorit Anda:
+- Studio : https://studio.davingm.com
+- Kina : https://kin.davingm.com
+- hosted : https://rust.davingm.net
+<br><br>
+  
+![skills](https://skillicons.dev/icons?i=js,ts,nuxtjs,vue,rust,scss,tailwind,vscode,git,figma,vite,redis,supabase,postgres,sqlite,pnpm,pinia,gcp,discord&theme=light)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/NLFTs/cv)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NLFTs/cv)
-
+<img alt="ban" src="img/banner.jpg"/>
 ---
 
-## 🛠️ Persiapan Awal
-
-Sebelum memulai, pastikan Anda telah menginstal perangkat lunak berikut di komputer Anda:
-
-* [Node.js](https://nodejs.org/) (Versi LTS direkomendasikan)
-* [Angular CLI](https://angular.io/cli) (`npm install -g @angular/cli`)
-
-## 📖 Cara Penggunaan
-
-### 1. Kloning Repositori
-Jalankan perintah berikut di terminal Anda:
-```bash
-git clone [https://github.com/NLFTs/cv.git](https://github.com/NLFTs/cv.git)
-cd cv
-````
-
-### 2\. Instal Dependensi
-
-Instal semua paket yang diperlukan menggunakan npm:
-
-```bash
-npm install
-```
-
-### 3\. Jalankan di Lokal
-
-Jalankan server pengembangan untuk melihat perubahan secara real-time:
-
-```bash
-ng serve
-```
-
-Buka browser dan akses `http://localhost:4200/`.
-
-### 4\. Kustomisasi Data
-
-Untuk mengubah isi portofolio (Nama, Proyek, Pengalaman), buka folder:
-`src/app/app.ts` (atau sesuaikan dengan struktur folder tempat Anda menyimpan file JSON/konfigurasi data).
-
------
-
-## 🏗️ Cara Deploy Manual
-
-### Ke Vercel (via CLI)
-
-1.  Instal Vercel CLI: `npm i -g vercel`
-2.  Jalankan perintah: `vercel`
-3.  Ikuti instruksi di terminal.
-
-### Ke Netlify (via CLI)
-
-1.  Instal Netlify CLI: `npm i -g netlify-cli`
-2.  Build proyek: `ng build`
-3.  Jalankan perintah: `netlify deploy --dir=dist/cv`
-
------
-
-## 📂 Struktur Folder Utama
-
-  * `src/app/components`: Berisi komponen UI (Header, Footer, Projects, dll).
-  * `src/assets`: Berisi gambar, ikon, dan file statis lainnya.
-  * `src/styles.scss`: Global styling dan tema warna.
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [FTs License](https://github.com/NLFTs/cv/blob/main/LICENSE).
-
-
-Dibuat dengan ❤️ oleh [NLFTs](https://github.com/NLFTs)
+### 如果你觉得我的工作有所帮助，欢迎赞助我。 Zh-cn
