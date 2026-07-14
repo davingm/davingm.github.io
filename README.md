@@ -1,6 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 你好！很高兴认识你</h1>
 
-<img align="right" height="250" width="400" alt="GIF" src="img/giphy.gif"/>
+<img align="right" height="50" width="100" alt="GIF" src="public/gh.gif"/>
 
 <p>我是 Davin Gahisan Mustafid (Davin GM)，一名来自印度尼西亚万隆的独立开发者。我专注于前端工程，并始终紧跟 Vue.js 生态系统的现代技术前沿。期待与你一起将那些疯狂的想法变为现实。</p>
 <h3>联系我进行合作</h3>
@@ -19,7 +19,7 @@
   
 ![skills](https://skillicons.dev/icons?i=js,ts,nuxtjs,vue,rust,scss,tailwind,vscode,git,figma,vite,redis,supabase,postgres,sqlite,pnpm,pinia,gcp,discord&theme=light)
 
-<img alt="ban" src="img/banner.jpg"/>
+<img alt="ban" src="public/banner.jpg"/>
 ---
 
 ### 如果你觉得我的工作有所帮助，欢迎赞助我。 Zh-cn
