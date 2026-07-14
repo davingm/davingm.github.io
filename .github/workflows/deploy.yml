@@ -40,8 +40,15 @@ jobs:
         run: npm ci
 
       - name: Build Angular App
-        # We build with base-href matching the repository name so assets load correctly on github.io.
-        run: npx ng build --configuration production --base-href /${{ github.event.repository.name }}/
+        # Dynamically set base-href to "/" for user pages (e.g. username.github.io) and "/repo/" for project pages
+        run: |
+          if [[ "${{ github.event.repository.name }}" == *".github.io" ]]; then
+            BASE_HREF="/"
+          else
+            BASE_HREF="/${{ github.event.repository.name }}/"
+          fi
+          echo "Using base-href: $BASE_HREF"
+          npx ng build --configuration production --base-href "$BASE_HREF"
 
       - name: Create 404.html for routing fallback
         # Standard SPA workaround so refreshing a route (e.g. /about) doesn't return 404.
