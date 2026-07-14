@@ -21,7 +21,6 @@ export class App {
 
   socialLinks = [
     { label: 'GitHub', url: 'https://github.com/davingm' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/davingm' },
     { label: 'Email', url: 'mailto:davin@nlfts.dev' },
     { label: 'Blog', url: 'https://davingm.com' },
   ];
