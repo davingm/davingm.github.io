@@ -45,6 +45,7 @@
     <!-- Bio -->
     <div class="mb-6 text-sm text-gray-700 leading-relaxed">
       <p>
+        {{ bio.nama }}
         <span class="bg-yellow-200">{{ bio.highlight1 }}</span>
         {{ bio.text1 }}
       </p>
@@ -70,19 +71,6 @@
             <li class="text-sm">
               <span class="text-blue-600 font-medium">{{ exp.title }}</span>
               <span class="text-gray-500"> · {{ exp.company }}, {{ exp.period }}</span>
-            </li>
-          }
-        </ul>
-      </div>
-
-      <!-- Pendidikan -->
-      <div>
-        <h2 class="text-base font-semibold text-gray-900 mb-2">Pendidikan</h2>
-        <ul class="space-y-2">
-          @for (edu of educations; track edu.degree) {
-            <li class="text-sm">
-              <p class="text-gray-800">{{ edu.degree }}</p>
-              <p class="text-gray-500">{{ edu.institution }} · {{ edu.period }}</p>
             </li>
           }
         </ul>
@@ -117,12 +105,22 @@
 
       <!-- Skills / Teknologi -->
       <div>
-        <h2 class="text-base font-semibold text-gray-900 mb-2">Teknologi</h2>
-        <div class="flex flex-wrap gap-1.5">
-          @for (skill of skills; track skill) {
-            <span class="border border-gray-300 text-gray-600 text-xs px-2 py-0.5 rounded-full">
-              {{ skill }}
-            </span>
+        <h2 class="text-base font-semibold text-gray-900 mb-3">Teknologi</h2>
+        <div class="flex flex-wrap gap-3">
+          @for (skill of skills; track skill.name) {
+            <div
+              class="group relative flex items-center justify-center w-12 h-12 rounded-xl border border-gray-200 bg-gray-50 hover:bg-white hover:border-gray-300 hover:shadow-sm transition-all duration-200 cursor-help"
+              [title]="skill.name"
+            >
+              <img
+                [src]="skill.icon"
+                [alt]="skill.name"
+                class="w-6 h-6 object-contain transition-transform duration-200 group-hover:scale-110"
+              />
+              <span class="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 scale-0 rounded bg-gray-900 px-2.5 py-1.25 text-[10px] font-medium text-white shadow-md transition-all duration-100 group-hover:scale-100 whitespace-nowrap z-10">
+                {{ skill.name }}
+              </span>
+            </div>
           }
         </div>
       </div>
