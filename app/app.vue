@@ -25,20 +25,20 @@
 const currentTime = ref(new Date())
 let timer: ReturnType<typeof setInterval> | null = null
 
-// 2. Format waktu menjadi format WIB
+// 2. Format waktu menjadi format CST (China Standard Time / Beijing Time)
 const formattedTime = ref('')
 
 const formatTimeClock = () => {
   const options: Intl.DateTimeFormatOptions = {
-    timeZone: 'Asia/Jakarta', // Zona waktu WIB
+    timeZone: 'Asia/Shanghai', // Zona waktu China (Shenzhen / Beijing - UTC+8)
     hour: '2-digit',
     minute: '2-digit',
     second: '2-digit',
     hour12: false
   }
   
-  const timeString = currentTime.value.toLocaleTimeString('id-ID', options)
-  formattedTime.value = `${timeString} WIB`
+  const timeString = currentTime.value.toLocaleTimeString('en-GB', options)
+  formattedTime.value = `${timeString} CST`
 }
 
 // 3. Fungsi untuk memperbarui waktu setiap detik
@@ -60,4 +60,5 @@ onMounted(() => {
 onUnmounted(() => {
   if (timer) clearInterval(timer)
 })
+</script>
 </script>
