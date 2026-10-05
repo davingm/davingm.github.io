@@ -14,9 +14,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
+        uses: actio      - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 10
